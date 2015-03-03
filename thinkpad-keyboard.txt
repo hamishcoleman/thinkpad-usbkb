@@ -1,0 +1,142 @@
+
+Projects implementing keyboards
+    http://www.instructables.com/id/Make-a-ThinkPad-keyboard-USB-adapter-with-Arduino/?ALLSTEPS
+        https://www.tindie.com/products/rampadc/arduino-thinkpad-usb-keyboard-adapter/
+        https://flashandrc.wordpress.com/2014/08/03/support-faq-customize-keyboard-matrix/
+        https://electronics.stackexchange.com/questions/64112/how-to-find-socket-for-keyboard-connector
+        http://forum.arduino.cc/index.php?topic=157939.0
+    https://github.com/tmk/tmk_keyboard
+
+guy with an external power switch on an R61
+    https://romovs.github.io/blog/2013/08/23/thinkpad-r61-with-an-external-power-switch/
+
+pictures of inside the "thinkpad usb keyboard ":
+    https://picasaweb.google.com/117436154327433424940/ThinkPadUSBKeyboardWithTrackPoint?noredirect=1#5451786037404887954
+    http://forum.thinkpads.com/viewtopic.php?f=11&t=86096
+
+General information on laptops
+    http://support.lenovo.com/gb/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x220
+
+
+
+Laptop schematics:
+    http://plan9.stanleylieber.com/hardware/thinkpad/x220/
+
+ARM dev env:
+    https://github.com/microbuilder/LPC11U_LPC13U_CodeBase
+    (see spreadsheet for more)
+
+Hardware:
+    EFM32
+        kicad parts:
+            https://github.com/hairykiwi/csv2kicad
+        openocd
+            https://github.com/nopeppermint/openocd_efm32
+
+looks like 33 gpio required (two/three performing as a ps2 bus)
+
+22 pins per side
+2 sides
+
+44 pins
+
+socket on motherboard:
+    height from board to top of socket - 1.40mm
+    length - 14.97mm
+    width at end flange - 5.99mm
+    width at plastic inwards of flange - 3.92mm
+
+    20 pins per side, plus what looks like NC retaining strap
+
+plug on keyboard:
+
+    22 pins per side, first and last look like retaining strap, but one of
+    them have signals apparently connected.
+    
+(
+see links above for better details
+
+    option 1
+        44 pin
+        Molex
+            0513384473 receptical
+            0559094472 plug
+
+    not
+    option 2
+        40 pin 0.6mm pitch
+        Mouser Hirose
+        798-FX840PSV91
+        798-FX840SSV21
+
+    option 3
+        40 pin 0.5mm pitch, 1.5mm stack height
+        Mouser Molex
+        538-54722-0404
+        538-55560-0407
+)
+
+pinout from x220 schematics:
+pin 1 indicated with a silk-screen arrow on motherboard
+pin 40 indicated with a circuit inscription on the keyboard
+pins go left to right
+
+pin     x220    x230
+2       DRV4    4
+4       DRV5    5
+6       DRV8    8
+8       DRV6    6
+10      DRV3    3
+12      DRV7    7
+14      DRV2    2
+16      DRV10   10
+18      DRV1    1
+20      DRV9    9
+22      DRV0    0
+24      DRV11   11
+26      DRV14   14
+28      DRV12   12
+30      DRV15   15
+32      DRV13   13
+34      gnd     gnd
+36      -LEDMICMUTE_R   -LEDMICMUTE_R
+38      VCC5B   VCC5
+40      TP4_RESET       TP4_RESET
+    
+1       -HOTKEY         -HOTKEY
+3       SENSE5  5
+5       SENSE0  0
+7       SENSE3  3
+9       SENSE2  2
+11      SENSE4  4
+13      SENSE1  1
+15      SENSE6  6
+17      SENSE7  7
+19      -PWRSWITCH      -PWRSWITCH
+21      LEDCPSLOCK_CONN ?? KBD_CN#21
+23      LEDPWR_CONN     -LEDPWR
+25      KBDID0_CONN     ?? KBD_CN#25
+27      KBDID1_CONN     GND
+29      KBDID2_CONN     ?? KBD_CN#29
+31      gnd     gnd
+33      -LED_MUTE       -LED_MUTE
+35      VCC3M   VCC3M
+37      TP4DATA TP4DATA
+39      TP4CLK  TP4CLK
+
+
+H8S/2161BV Pin Assignments
+; 32..25 PE  -> keyboard scan matrix outputs
+; 50..43 PF  -> keyboard scan matrix outputs
+; 58..51 PG  <- keyboard scan matrix inputs
+;    108 P13 -> BJT -> ThinkLight LED
+;      3 P44 -> BJT -> IGFET -> fan motor
+;     80 P62 <- BJT <- fan tachometer signal
+
+The keyboard is wired as a 16x8 matrix with port G as input and ports E
+and F setting one pin at a time as output during a scan. A table is used
+to then assign each key its "standard" PS/2 key location number. Fn,
+Power, TrackPoint and touch pad buttons are not part of this matrix
+but Access, Volume-, Volume+ and Mute keys are. And Caps Lock is also
+(first thing to change to something more useful).
+
