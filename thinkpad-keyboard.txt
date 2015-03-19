@@ -6,6 +6,7 @@ Projects implementing keyboards
         https://electronics.stackexchange.com/questions/64112/how-to-find-socket-for-keyboard-connector
         http://forum.arduino.cc/index.php?topic=157939.0
     https://github.com/tmk/tmk_keyboard
+    https://github.com/frobiac/adnw
 
 guy with an external power switch on an R61
     https://romovs.github.io/blog/2013/08/23/thinkpad-r61-with-an-external-power-switch/
