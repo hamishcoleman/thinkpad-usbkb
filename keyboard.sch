@@ -1000,7 +1000,7 @@ F 3 "" H 2100 7400 60  0000 C CNN
 $EndComp
 Text GLabel 1200 7100 2    60   Input ~ 0
 tp4_clk
-Text GLabel 1200 7000 2    60   Input ~ 0
+Text GLabel 1700 7000 2    60   Input ~ 0
 tp4_reset
 Wire Wire Line
 	1100 7500 1200 7500
@@ -1143,4 +1143,17 @@ Wire Wire Line
 	6400 7300 6400 7400
 Wire Wire Line
 	6700 7300 6700 7400
+$Comp
+L GS2 GS?
+U 1 1 550C3E4F
+P 1400 7000
+F 0 "GS?" H 1500 7150 50  0000 C CNN
+F 1 "GS2" H 1500 6851 40  0000 C CNN
+F 2 "GS2" V 1474 7000 30  0000 C CNN
+F 3 "" H 1400 7000 60  0000 C CNN
+	1    1400 7000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 7000 1600 7000
 $EndSCHEMATC
