@@ -8,7 +8,8 @@ keyboard.net
 
 # backup of the schematic
 keyboard.bak
-keyboard.kicad_pcb-bak
+keyboard-conn-palm.bak
 
 # backup of the pcb
 keyboard.000
+keyboard.kicad_pcb-bak

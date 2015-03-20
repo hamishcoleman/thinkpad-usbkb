@@ -36,7 +36,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date "20 mar 2015"
 Rev ""
@@ -79,201 +79,6 @@ F 3 "DOCUMENTATION" H 4950 2550 50  0001 C CNN
 	1    4950 2550
 	-1   0    0    -1  
 $EndComp
-$Comp
-L CONN-PALM-FOLD-KB J1
-U 1 1 550C0652
-P 10600 1100
-F 0 "J1" H 10200 600 50  0000 C CNN
-F 1 "CONN-PALM-FOLD-KB" H 10600 1600 50  0000 C CNN
-F 2 "MODULE" H 10600 1100 50  0001 C CNN
-F 3 "DOCUMENTATION" H 10600 1100 50  0001 C CNN
-	1    10600 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN-PALM-FOLD-KB J1
-U 2 1 550C0661
-P 10600 2450
-F 0 "J1" H 10200 1750 50  0000 C CNN
-F 1 "CONN-PALM-FOLD-KB" H 10600 3150 50  0000 C CNN
-F 2 "MODULE" H 10600 2450 50  0001 C CNN
-F 3 "DOCUMENTATION" H 10600 2450 50  0001 C CNN
-	2    10600 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN-PALM-FOLD-KB J1
-U 3 1 550C0670
-P 10600 4100
-F 0 "J1" H 10200 3300 50  0000 C CNN
-F 1 "CONN-PALM-FOLD-KB" H 10600 4900 50  0000 C CNN
-F 2 "MODULE" H 10600 4100 50  0001 C CNN
-F 3 "DOCUMENTATION" H 10600 4100 50  0001 C CNN
-	3    10600 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN-PALM-FOLD-KB J1
-U 4 1 550C067F
-P 10600 5750
-F 0 "J1" H 10200 5050 50  0000 C CNN
-F 1 "CONN-PALM-FOLD-KB" H 10600 6450 50  0000 C CNN
-F 2 "MODULE" H 10600 5750 50  0001 C CNN
-F 3 "DOCUMENTATION" H 10600 5750 50  0001 C CNN
-	4    10600 5750
-	1    0    0    -1  
-$EndComp
-Text GLabel 9750 2000 0    60   Input ~ 0
-col1
-Text GLabel 9750 2100 0    60   Input ~ 0
-col5
-Text GLabel 9750 2200 0    60   Input ~ 0
-col6
-Text GLabel 9750 2300 0    60   Input ~ 0
-col2
-Text GLabel 9750 2400 0    60   Input ~ 0
-col11
-Text GLabel 9750 2500 0    60   Input ~ 0
-row8
-Text GLabel 9750 2600 0    60   Input ~ 0
-col12
-Text GLabel 9750 2700 0    60   Input ~ 0
-row7
-Text GLabel 9750 2800 0    60   Input ~ 0
-row6
-Text GLabel 9750 2900 0    60   Input ~ 0
-row5
-$Comp
-L CONN_6 P4
-U 1 1 550C07ED
-P 9400 1100
-F 0 "P4" V 9350 1100 60  0000 C CNN
-F 1 "CONN_6" V 9450 1100 60  0000 C CNN
-F 2 "" H 9400 1100 60  0000 C CNN
-F 3 "" H 9400 1100 60  0000 C CNN
-	1    9400 1100
-	-1   0    0    -1  
-$EndComp
-Text GLabel 9750 3550 0    60   Input ~ 0
-col1
-Text GLabel 9750 3650 0    60   Input ~ 0
-col4
-Text GLabel 9750 3750 0    60   Input ~ 0
-col6
-Text GLabel 9750 3850 0    60   Input ~ 0
-row1
-Text GLabel 9750 3950 0    60   Input ~ 0
-row2
-Text GLabel 9750 4050 0    60   Input ~ 0
-row3
-Text GLabel 9750 4150 0    60   Input ~ 0
-row4
-Text GLabel 9750 4250 0    60   Input ~ 0
-col5
-Text GLabel 9750 4350 0    60   Input ~ 0
-col7
-Text GLabel 9750 4450 0    60   Input ~ 0
-col8
-Text GLabel 9750 4550 0    60   Input ~ 0
-col9
-Text GLabel 9750 4650 0    60   Input ~ 0
-col10
-Text GLabel 9750 5300 0    60   Input ~ 0
-row5
-Text GLabel 9750 5400 0    60   Input ~ 0
-row6
-Text GLabel 9750 5500 0    60   Input ~ 0
-row7
-Text GLabel 9750 5600 0    60   Input ~ 0
-col12
-Text GLabel 9750 5700 0    60   Input ~ 0
-row8
-Text GLabel 9750 5800 0    60   Input ~ 0
-col9
-Text GLabel 9750 5900 0    60   Input ~ 0
-col3
-Text GLabel 9750 6000 0    60   Input ~ 0
-col8
-Text GLabel 9750 6100 0    60   Input ~ 0
-col10
-Text GLabel 9750 6200 0    60   Input ~ 0
-col7
-Wire Wire Line
-	9750 850  9850 850 
-Wire Wire Line
-	9850 950  9750 950 
-Wire Wire Line
-	9750 1050 9850 1050
-Wire Wire Line
-	9850 1150 9750 1150
-Wire Wire Line
-	9750 1250 9850 1250
-Wire Wire Line
-	9850 1350 9750 1350
-Wire Wire Line
-	9750 2000 9850 2000
-Wire Wire Line
-	9750 2100 9850 2100
-Wire Wire Line
-	9750 2200 9850 2200
-Wire Wire Line
-	9850 2300 9750 2300
-Wire Wire Line
-	9750 2400 9850 2400
-Wire Wire Line
-	9850 2500 9750 2500
-Wire Wire Line
-	9750 2600 9850 2600
-Wire Wire Line
-	9850 2700 9750 2700
-Wire Wire Line
-	9750 2800 9850 2800
-Wire Wire Line
-	9850 2900 9750 2900
-Wire Wire Line
-	9750 3550 9850 3550
-Wire Wire Line
-	9850 3650 9750 3650
-Wire Wire Line
-	9750 3750 9850 3750
-Wire Wire Line
-	9850 3850 9750 3850
-Wire Wire Line
-	9750 3950 9850 3950
-Wire Wire Line
-	9850 4050 9750 4050
-Wire Wire Line
-	9750 4150 9850 4150
-Wire Wire Line
-	9850 4250 9750 4250
-Wire Wire Line
-	9750 4350 9850 4350
-Wire Wire Line
-	9850 4450 9750 4450
-Wire Wire Line
-	9750 4550 9850 4550
-Wire Wire Line
-	9850 4650 9750 4650
-Wire Wire Line
-	9750 5300 9850 5300
-Wire Wire Line
-	9850 5400 9750 5400
-Wire Wire Line
-	9750 5500 9850 5500
-Wire Wire Line
-	9850 5600 9750 5600
-Wire Wire Line
-	9750 5700 9850 5700
-Wire Wire Line
-	9850 5800 9750 5800
-Wire Wire Line
-	9750 5900 9850 5900
-Wire Wire Line
-	9850 6000 9750 6000
-Wire Wire Line
-	9750 6100 9850 6100
-Wire Wire Line
-	9850 6200 9750 6200
 Wire Wire Line
 	5700 1500 8600 1500
 Wire Wire Line
@@ -1144,10 +949,10 @@ Wire Wire Line
 Wire Wire Line
 	6700 7300 6700 7400
 $Comp
-L GS2 GS?
+L GS2 GS9
 U 1 1 550C3E4F
 P 1400 7000
-F 0 "GS?" H 1500 7150 50  0000 C CNN
+F 0 "GS9" H 1500 7150 50  0000 C CNN
 F 1 "GS2" H 1500 6851 40  0000 C CNN
 F 2 "GS2" V 1474 7000 30  0000 C CNN
 F 3 "" H 1400 7000 60  0000 C CNN
@@ -1156,4 +961,10 @@ F 3 "" H 1400 7000 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	1700 7000 1600 7000
+$Sheet
+S 9000 5550 2100 1450
+U 550C7B07
+F0 "keyboard-conn-palm" 50
+F1 "keyboard-conn-palm.sch" 50
+$EndSheet
 $EndSCHEMATC

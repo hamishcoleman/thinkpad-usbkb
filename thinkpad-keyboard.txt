@@ -34,6 +34,10 @@ Hardware:
         openocd
             https://github.com/nopeppermint/openocd_efm32
 
+Example of a bi-dir voltage converter:
+    https://www.sparkfun.com/products/12009
+
+
 looks like 33 gpio required (two/three performing as a ps2 bus)
 
 22 pins per side
