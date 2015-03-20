@@ -8,6 +8,7 @@ keyboard.net
 
 # backup of the schematic
 keyboard.bak
+keyboard.kicad_pcb-bak
 
 # backup of the pcb
 keyboard.000
