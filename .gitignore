@@ -1,0 +1,13 @@
+
+# This is an automatically generated cache of all the parts in the
+# schematic.
+keyboard-cache.lib
+
+# the generated netlist
+keyboard.net
+
+# backup of the schematic
+keyboard.bak
+
+# backup of the pcb
+keyboard.000
