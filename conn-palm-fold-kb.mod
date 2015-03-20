@@ -1,0 +1,292 @@
+PCBNEW-LibModule-V1  Fri 20 Mar 2015 14:40:52 GMT
+# encoding utf-8
+Units mm
+$INDEX
+conn-palm-fold-kb
+$EndINDEX
+$MODULE conn-palm-fold-kb
+Po 0 0 0 15 550C3142 00000000 ~~
+Li conn-palm-fold-kb
+Kw conn-palm-fold-kb
+Sc 0
+AR 
+Op 0 0 0
+T0 -15.78864 -3.0226 1.778 1.778 0 0.3048 N V 21 N "J***"
+T1 14.16812 -2.57556 1.778 1.778 0 0.3048 N V 21 N "conn-palm-fold-kb"
+DS 33.02 -10.16 -23.32736 -10.16 0.09906 21
+DS -23.32736 -10.16 -23.32736 -6.35 0.09906 21
+DS 33.02 -10.16 33.02 -6.35 0.09906 21
+$PAD
+Sh "17" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.92328 -7.66572
+$EndPAD
+$PAD
+Sh "18" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.92252 -7.66572
+$EndPAD
+$PAD
+Sh "24" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.07696 -7.66572
+$EndPAD
+$PAD
+Sh "25" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.07772 -7.66572
+$EndPAD
+$PAD
+Sh "26" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.07848 -7.66572
+$EndPAD
+$PAD
+Sh "28" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.07492 -7.66572
+$EndPAD
+$PAD
+Sh "27" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.07416 -7.66572
+$EndPAD
+$PAD
+Sh "22" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.92456 -7.66572
+$EndPAD
+$PAD
+Sh "23" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.0762 -7.66572
+$EndPAD
+$PAD
+Sh "21" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.92024 -7.66572
+$EndPAD
+$PAD
+Sh "20" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.921 -7.66572
+$EndPAD
+$PAD
+Sh "19" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.92176 -7.66572
+$EndPAD
+$PAD
+Sh "38" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -18.57756 -7.66572
+$EndPAD
+$PAD
+Sh "29" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -9.58088 -7.66572
+$EndPAD
+$PAD
+Sh "30" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -10.58164 -7.66572
+$EndPAD
+$PAD
+Sh "32" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -12.57808 -7.66572
+$EndPAD
+$PAD
+Sh "31" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -11.57732 -7.66572
+$EndPAD
+$PAD
+Sh "36" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -16.57604 -7.66572
+$EndPAD
+$PAD
+Sh "37" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -17.5768 -7.66572
+$EndPAD
+$PAD
+Sh "35" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -15.58036 -7.66572
+$EndPAD
+$PAD
+Sh "34" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -14.5796 -7.66572
+$EndPAD
+$PAD
+Sh "33" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -13.57884 -7.66572
+$EndPAD
+$PAD
+Sh "12" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 13.42644 -7.66572
+$EndPAD
+$PAD
+Sh "13" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 12.42568 -7.66572
+$EndPAD
+$PAD
+Sh "14" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 11.42492 -7.66572
+$EndPAD
+$PAD
+Sh "16" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.42848 -7.66572
+$EndPAD
+$PAD
+Sh "15" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 10.42924 -7.66572
+$EndPAD
+$PAD
+Sh "10" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 15.42796 -7.66572
+$EndPAD
+$PAD
+Sh "11" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 14.4272 -7.66572
+$EndPAD
+$PAD
+Sh "9" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 16.42364 -7.66572
+$EndPAD
+$PAD
+Sh "8" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 17.4244 -7.66572
+$EndPAD
+$PAD
+Sh "7" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 18.42516 -7.66572
+$EndPAD
+$PAD
+Sh "4" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 23.9776 -7.66572
+$EndPAD
+$PAD
+Sh "5" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 22.97684 -7.66572
+$EndPAD
+$PAD
+Sh "3" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 24.97328 -7.66572
+$EndPAD
+$PAD
+Sh "6" R 1 5.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 21.72716 -7.4168
+$EndPAD
+$PAD
+Sh "1" R 1 5.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 27.225 -7.4168
+$EndPAD
+$PAD
+Sh "2" R 0.5 5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 25.97404 -7.66572
+$EndPAD
+$SHAPE3D
+Na "dil/dil_32-w600.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE conn-palm-fold-kb
+$EndLIBRARY
