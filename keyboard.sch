@@ -31,14 +31,15 @@ LIBS:contrib
 LIBS:valves
 LIBS:conn-x220-kb
 LIBS:conn-palm-fold-kb
+LIBS:ldo-mcp1700
 LIBS:keyboard-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 5
 Title ""
-Date "20 mar 2015"
+Date "21 mar 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,145 +47,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_6 P3
-U 1 1 550C4CE3
-P 750 7250
-F 0 "P3" V 700 7250 60  0000 C CNN
-F 1 "PS2" V 800 7250 60  0000 C CNN
-F 2 "" H 750 7250 60  0000 C CNN
-F 3 "" H 750 7250 60  0000 C CNN
-	1    750  7250
-	-1   0    0    1   
-$EndComp
-Text GLabel 1200 7500 2    60   Input ~ 0
-tp4data
-$Comp
-L GND #PWR012
-U 1 1 550C4CF6
-P 1900 7400
-F 0 "#PWR012" H 1900 7400 30  0001 C CNN
-F 1 "GND" H 1900 7330 30  0001 C CNN
-F 2 "" H 1900 7400 60  0000 C CNN
-F 3 "" H 1900 7400 60  0000 C CNN
-	1    1900 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR013
-U 1 1 550C4CFC
-P 2100 7400
-F 0 "#PWR013" H 2100 7490 20  0001 C CNN
-F 1 "+5V" H 2100 7490 30  0000 C CNN
-F 2 "" H 2100 7400 60  0000 C CNN
-F 3 "" H 2100 7400 60  0000 C CNN
-	1    2100 7400
-	-1   0    0    1   
-$EndComp
-Text GLabel 1200 7100 2    60   Input ~ 0
-tp4_clk
-Text GLabel 1700 7000 2    60   Input ~ 0
-tp4_reset
-Wire Wire Line
-	1100 7500 1200 7500
-Wire Wire Line
-	1100 7100 1200 7100
-Wire Wire Line
-	1100 7000 1200 7000
-Wire Wire Line
-	1100 7300 1900 7300
-Wire Wire Line
-	1900 7300 1900 7400
-Wire Wire Line
-	1100 7200 2100 7200
-Wire Wire Line
-	2100 7200 2100 7400
-NoConn ~ 1100 7400
-$Comp
-L PWR_FLAG #FLG014
-U 1 1 550C603F
-P 6700 7300
-F 0 "#FLG014" H 6700 7395 30  0001 C CNN
-F 1 "PWR_FLAG" H 6700 7480 30  0000 C CNN
-F 2 "" H 6700 7300 60  0000 C CNN
-F 3 "" H 6700 7300 60  0000 C CNN
-	1    6700 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG015
-U 1 1 550C604C
-P 6400 7300
-F 0 "#FLG015" H 6400 7395 30  0001 C CNN
-F 1 "PWR_FLAG" H 6400 7480 30  0000 C CNN
-F 2 "" H 6400 7300 60  0000 C CNN
-F 3 "" H 6400 7300 60  0000 C CNN
-	1    6400 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG016
-U 1 1 550C6052
-P 6100 7300
-F 0 "#FLG016" H 6100 7395 30  0001 C CNN
-F 1 "PWR_FLAG" H 6100 7480 30  0000 C CNN
-F 2 "" H 6100 7300 60  0000 C CNN
-F 3 "" H 6100 7300 60  0000 C CNN
-	1    6100 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR017
-U 1 1 550C6058
-P 6400 7400
-F 0 "#PWR017" H 6400 7360 30  0001 C CNN
-F 1 "+3.3V" H 6400 7510 30  0000 C CNN
-F 2 "" H 6400 7400 60  0000 C CNN
-F 3 "" H 6400 7400 60  0000 C CNN
-	1    6400 7400
-	-1   0    0    1   
-$EndComp
-$Comp
-L +5V #PWR018
-U 1 1 550C605E
-P 6100 7400
-F 0 "#PWR018" H 6100 7490 20  0001 C CNN
-F 1 "+5V" H 6100 7490 30  0000 C CNN
-F 2 "" H 6100 7400 60  0000 C CNN
-F 3 "" H 6100 7400 60  0000 C CNN
-	1    6100 7400
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR019
-U 1 1 550C6064
-P 6700 7400
-F 0 "#PWR019" H 6700 7400 30  0001 C CNN
-F 1 "GND" H 6700 7330 30  0001 C CNN
-F 2 "" H 6700 7400 60  0000 C CNN
-F 3 "" H 6700 7400 60  0000 C CNN
-	1    6700 7400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 7300 6100 7400
-Wire Wire Line
-	6400 7300 6400 7400
-Wire Wire Line
-	6700 7300 6700 7400
-$Comp
-L GS2 GS9
-U 1 1 550C3E4F
-P 1400 7000
-F 0 "GS9" H 1500 7150 50  0000 C CNN
-F 1 "GS2" H 1500 6851 40  0000 C CNN
-F 2 "GS2" V 1474 7000 30  0000 C CNN
-F 3 "" H 1400 7000 60  0000 C CNN
-	1    1400 7000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1700 7000 1600 7000
 $Sheet
 S 9000 5550 2100 1450
 U 550C7B07
@@ -196,5 +58,20 @@ S 6950 5550 1950 1450
 U 550C7EDD
 F0 "keyboard-conn-x220" 50
 F1 "keyboard-conn-x220.sch" 50
+$EndSheet
+$Sheet
+S 9000 4100 2100 1250
+U 550CAAF7
+F0 "keyboard-ps2mouse" 50
+F1 "keyboard-ps2mouse.sch" 50
+F2 "ps2_clk_3v3" I L 9000 4300 60 
+F3 "ps2_data_3v3" I L 9000 4400 60 
+F4 "ps2_reset_3v3" I L 9000 4500 60 
+$EndSheet
+$Sheet
+S 5100 5550 1700 1450
+U 550CC5F8
+F0 "keyboard-power" 50
+F1 "keyboard-power.sch" 50
 $EndSheet
 $EndSCHEMATC

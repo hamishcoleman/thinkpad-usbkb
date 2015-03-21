@@ -31,14 +31,15 @@ LIBS:contrib
 LIBS:valves
 LIBS:conn-x220-kb
 LIBS:conn-palm-fold-kb
+LIBS:ldo-mcp1700
 LIBS:keyboard-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 5
 Title ""
-Date "20 mar 2015"
+Date "21 mar 2015"
 Rev ""
 Comp ""
 Comment1 ""

@@ -1,0 +1,339 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:conn-x220-kb
+LIBS:conn-palm-fold-kb
+LIBS:ldo-mcp1700
+LIBS:keyboard-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date "21 mar 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 550CC647
+P 6700 7450
+F 0 "#FLG?" H 6700 7545 30  0001 C CNN
+F 1 "PWR_FLAG" H 6700 7630 30  0000 C CNN
+F 2 "" H 6700 7450 60  0000 C CNN
+F 3 "" H 6700 7450 60  0000 C CNN
+	1    6700 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 550CC64D
+P 6400 7450
+F 0 "#FLG?" H 6400 7545 30  0001 C CNN
+F 1 "PWR_FLAG" H 6400 7630 30  0000 C CNN
+F 2 "" H 6400 7450 60  0000 C CNN
+F 3 "" H 6400 7450 60  0000 C CNN
+	1    6400 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 550CC653
+P 6100 7450
+F 0 "#FLG?" H 6100 7545 30  0001 C CNN
+F 1 "PWR_FLAG" H 6100 7630 30  0000 C CNN
+F 2 "" H 6100 7450 60  0000 C CNN
+F 3 "" H 6100 7450 60  0000 C CNN
+	1    6100 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 550CC659
+P 6400 7550
+F 0 "#PWR?" H 6400 7510 30  0001 C CNN
+F 1 "+3.3V" H 6400 7660 30  0000 C CNN
+F 2 "" H 6400 7550 60  0000 C CNN
+F 3 "" H 6400 7550 60  0000 C CNN
+	1    6400 7550
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 550CC65F
+P 6100 7550
+F 0 "#PWR?" H 6100 7640 20  0001 C CNN
+F 1 "+5V" H 6100 7640 30  0000 C CNN
+F 2 "" H 6100 7550 60  0000 C CNN
+F 3 "" H 6100 7550 60  0000 C CNN
+	1    6100 7550
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 550CC665
+P 6700 7550
+F 0 "#PWR?" H 6700 7550 30  0001 C CNN
+F 1 "GND" H 6700 7480 30  0001 C CNN
+F 2 "" H 6700 7550 60  0000 C CNN
+F 3 "" H 6700 7550 60  0000 C CNN
+	1    6700 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 7450 6100 7550
+Wire Wire Line
+	6400 7450 6400 7550
+Wire Wire Line
+	6700 7450 6700 7550
+$Comp
+L MCP1700 U?
+U 1 1 550CC8A8
+P 4100 3850
+F 0 "U?" H 3900 3650 40  0000 C CNN
+F 1 "MCP1700-2202E/TT" H 3850 4050 40  0000 L CNN
+F 2 "SOT-23" H 4100 3950 30  0000 C CIN
+F 3 "" H 4100 3850 60  0000 C CNN
+	1    4100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 550CC8B7
+P 4100 4400
+F 0 "#PWR?" H 4100 4400 30  0001 C CNN
+F 1 "GND" H 4100 4330 30  0001 C CNN
+F 2 "" H 4100 4400 60  0000 C CNN
+F 3 "" H 4100 4400 60  0000 C CNN
+	1    4100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 550CC8C6
+P 4600 3700
+F 0 "#PWR?" H 4600 3660 30  0001 C CNN
+F 1 "+3.3V" H 4600 3810 30  0000 C CNN
+F 2 "" H 4600 3700 60  0000 C CNN
+F 3 "" H 4600 3700 60  0000 C CNN
+	1    4600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 550CC8D5
+P 4650 2550
+F 0 "#PWR?" H 4650 2640 20  0001 C CNN
+F 1 "+5V" H 4650 2640 30  0000 C CNN
+F 2 "" H 4650 2550 60  0000 C CNN
+F 3 "" H 4650 2550 60  0000 C CNN
+	1    4650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 550CC8E2
+P 4600 4400
+F 0 "#PWR?" H 4600 4400 30  0001 C CNN
+F 1 "GND" H 4600 4330 30  0001 C CNN
+F 2 "" H 4600 4400 60  0000 C CNN
+F 3 "" H 4600 4400 60  0000 C CNN
+	1    4600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 550CC8E8
+P 3600 4400
+F 0 "#PWR?" H 3600 4400 30  0001 C CNN
+F 1 "GND" H 3600 4330 30  0001 C CNN
+F 2 "" H 3600 4400 60  0000 C CNN
+F 3 "" H 3600 4400 60  0000 C CNN
+	1    3600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 550CC8F0
+P 3600 4100
+F 0 "C?" H 3600 4200 40  0000 L CNN
+F 1 "1uF" H 3606 4015 40  0000 L CNN
+F 2 "~" H 3638 3950 30  0000 C CNN
+F 3 "~" H 3600 4100 60  0000 C CNN
+	1    3600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 550CC8FD
+P 4600 4100
+F 0 "C?" H 4600 4200 40  0000 L CNN
+F 1 "1uF" H 4606 4015 40  0000 L CNN
+F 2 "~" H 4638 3950 30  0000 C CNN
+F 3 "~" H 4600 4100 60  0000 C CNN
+	1    4600 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3800 3700 3800
+Connection ~ 3600 3800
+Wire Wire Line
+	3600 4300 3600 4400
+Wire Wire Line
+	4100 4100 4100 4400
+Wire Wire Line
+	4600 4300 4600 4400
+Wire Wire Line
+	4500 3800 4600 3800
+Wire Wire Line
+	4600 3700 4600 3900
+Connection ~ 4600 3800
+$Comp
+L +5V #PWR?
+U 1 1 550CC97B
+P 7000 2650
+F 0 "#PWR?" H 7000 2740 20  0001 C CNN
+F 1 "+5V" H 7000 2740 30  0000 C CNN
+F 2 "" H 7000 2650 60  0000 C CNN
+F 3 "" H 7000 2650 60  0000 C CNN
+	1    7000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 550CC981
+P 7700 2650
+F 0 "#PWR?" H 7700 2610 30  0001 C CNN
+F 1 "+3.3V" H 7700 2760 30  0000 C CNN
+F 2 "" H 7700 2650 60  0000 C CNN
+F 3 "" H 7700 2650 60  0000 C CNN
+	1    7700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 550CC989
+P 7350 2750
+F 0 "R?" V 7430 2750 40  0000 C CNN
+F 1 "DNP" V 7357 2751 40  0000 C CNN
+F 2 "~" V 7280 2750 30  0000 C CNN
+F 3 "~" H 7350 2750 30  0000 C CNN
+	1    7350 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7000 2650 7000 2750
+Wire Wire Line
+	7000 2750 7100 2750
+Wire Wire Line
+	7600 2750 7700 2750
+Wire Wire Line
+	7700 2750 7700 2650
+Text GLabel 3500 3800 0    60   Input ~ 0
+VUSB
+Text GLabel 3550 2650 0    60   Input ~ 0
+VUSB
+Wire Wire Line
+	3600 3800 3600 3900
+Wire Wire Line
+	3550 2650 3650 2650
+$Comp
+L DIODE D?
+U 1 1 550CCD11
+P 3850 2650
+F 0 "D?" H 3850 2750 40  0000 C CNN
+F 1 "1N4148" H 3850 2550 40  0000 C CNN
+F 2 "~" H 3850 2650 60  0000 C CNN
+F 3 "~" H 3850 2650 60  0000 C CNN
+	1    3850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 550CCD1E
+P 4350 2650
+F 0 "D?" H 4350 2750 40  0000 C CNN
+F 1 "1N4148" H 4350 2550 40  0000 C CNN
+F 2 "~" H 4350 2650 60  0000 C CNN
+F 3 "~" H 4350 2650 60  0000 C CNN
+	1    4350 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2650 4150 2650
+Wire Wire Line
+	4550 2650 4650 2650
+Wire Wire Line
+	4650 2650 4650 2550
+$Comp
+L +5V #PWR?
+U 1 1 550CCD71
+P 7650 3750
+F 0 "#PWR?" H 7650 3840 20  0001 C CNN
+F 1 "+5V" H 7650 3840 30  0000 C CNN
+F 2 "" H 7650 3750 60  0000 C CNN
+F 3 "" H 7650 3750 60  0000 C CNN
+	1    7650 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 6950 3850 0    60   Input ~ 0
+VUSB
+Wire Wire Line
+	6950 3850 7050 3850
+Wire Wire Line
+	7550 3850 7650 3850
+Wire Wire Line
+	7650 3850 7650 3750
+$Comp
+L R R?
+U 1 1 550CCD88
+P 7300 3850
+F 0 "R?" V 7380 3850 40  0000 C CNN
+F 1 "DNP" V 7307 3851 40  0000 C CNN
+F 2 "~" V 7230 3850 30  0000 C CNN
+F 3 "~" H 7300 3850 30  0000 C CNN
+	1    7300 3850
+	0    -1   -1   0   
+$EndComp
+Text Notes 2450 2250 0    60   ~ 0
+One option is just to use diode droppers to get from 5v to ~3.6V
+Text Notes 2950 3450 0    60   ~ 0
+The more official option is to use a LDO regulator
+Text Notes 5900 2400 0    60   ~ 0
+If it turns out that we can power the trackpoint from 3.3V, then we can just join the power rails
+Text Notes 6300 3600 0    60   ~ 0
+Otherwise, get the 5V from the USB
+$EndSCHEMATC
