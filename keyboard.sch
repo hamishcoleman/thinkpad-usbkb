@@ -32,12 +32,13 @@ LIBS:valves
 LIBS:conn-x220-kb
 LIBS:conn-palm-fold-kb
 LIBS:ldo-mcp1700
+LIBS:energymicro-efm32
 LIBS:keyboard-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date "21 mar 2015"
 Rev ""
@@ -87,4 +88,10 @@ F5 "USB_SENSE" I L 3400 5900 60
 $EndSheet
 Wire Wire Line
 	4950 5800 5100 5800
+$Sheet
+S 5650 4050 1950 1350
+U 550E0B7A
+F0 "keyboard-efm32" 50
+F1 "keyboard-efm32.sch" 50
+$EndSheet
 $EndSCHEMATC

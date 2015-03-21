@@ -1,9 +1,9 @@
 (kicad_pcb (version 3) (host pcbnew "(25-Oct-2014 BZR 4029)-stable")
 
   (general
-    (links 127)
+    (links 0)
     (no_connects 127)
-    (area 0 0 0 0)
+    (area 129.833499 20.3576 240.676401 156.726577)
     (thickness 1.6002)
     (drawings 10)
     (tracks 0)

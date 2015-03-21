@@ -32,12 +32,13 @@ LIBS:valves
 LIBS:conn-x220-kb
 LIBS:conn-palm-fold-kb
 LIBS:ldo-mcp1700
+LIBS:energymicro-efm32
 LIBS:keyboard-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 7
 Title ""
 Date "21 mar 2015"
 Rev ""
