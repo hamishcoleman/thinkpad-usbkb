@@ -37,7 +37,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title ""
 Date "21 mar 2015"
 Rev ""
@@ -208,7 +208,9 @@ F 3 "~" H 4600 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 3800 3700 3800
+	3500 3800 3600 3800
+Wire Wire Line
+	3600 3800 3700 3800
 Connection ~ 3600 3800
 Wire Wire Line
 	3600 4300 3600 4400
@@ -219,7 +221,9 @@ Wire Wire Line
 Wire Wire Line
 	4500 3800 4600 3800
 Wire Wire Line
-	4600 3700 4600 3900
+	4600 3700 4600 3800
+Wire Wire Line
+	4600 3800 4600 3900
 Connection ~ 4600 3800
 $Comp
 L +5V #PWR?
@@ -262,10 +266,6 @@ Wire Wire Line
 	7600 2750 7700 2750
 Wire Wire Line
 	7700 2750 7700 2650
-Text GLabel 3500 3800 0    60   Input ~ 0
-VUSB
-Text GLabel 3550 2650 0    60   Input ~ 0
-VUSB
 Wire Wire Line
 	3600 3800 3600 3900
 Wire Wire Line
@@ -309,8 +309,6 @@ F 3 "" H 7650 3750 60  0000 C CNN
 	1    7650 3750
 	1    0    0    -1  
 $EndComp
-Text GLabel 6950 3850 0    60   Input ~ 0
-VUSB
 Wire Wire Line
 	6950 3850 7050 3850
 Wire Wire Line
@@ -336,4 +334,10 @@ Text Notes 5900 2400 0    60   ~ 0
 If it turns out that we can power the trackpoint from 3.3V, then we can just join the power rails
 Text Notes 6300 3600 0    60   ~ 0
 Otherwise, get the 5V from the USB
+Text HLabel 3550 2650 0    60   Input ~ 0
+VUSB
+Text HLabel 6950 3850 0    60   Input ~ 0
+VUSB
+Text HLabel 3500 3800 0    60   Input ~ 0
+VUSB
 $EndSCHEMATC

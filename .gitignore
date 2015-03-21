@@ -6,11 +6,9 @@ keyboard-cache.lib
 # the generated netlist
 keyboard.net
 
-# backup of the schematic
-keyboard.bak
-keyboard-conn-palm.bak
-keyboard-conn-x220.bak
+# backup of the schematics
+*.bak
 
 # backup of the pcb
 keyboard.000
-keyboard.kicad_pcb-bak
+*.kicad_pcb-bak
