@@ -749,14 +749,4 @@ F 3 "~" H 8850 5050 30  0000 C CNN
 	1    8850 5050
 	-1   0    0    1   
 $EndComp
-Text GLabel 10600 3650 0    60   Input ~ 0
-ledpwr
-NoConn ~ 10700 3650
-Wire Wire Line
-	10600 3650 10700 3650
-Text GLabel 900  4250 2    60   Input ~ 0
-ledmicmute
-NoConn ~ 800  4250
-Wire Wire Line
-	800  4250 900  4250
 $EndSCHEMATC
