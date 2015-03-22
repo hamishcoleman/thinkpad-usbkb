@@ -124,11 +124,11 @@ Wire Wire Line
 	3000 4200 3000 5900
 Wire Wire Line
 	3000 5900 3400 5900
-Text GLabel 3300 1700 0    60   Input ~ 0
+Text GLabel 3300 2250 0    60   Input ~ 0
 ledpwr
-NoConn ~ 3400 1700
+NoConn ~ 3400 2250
 Wire Wire Line
-	3300 1700 3400 1700
+	3300 2250 3400 2250
 Text GLabel 2650 1900 2    60   Input ~ 0
 ledmicmute
 NoConn ~ 2550 1900
@@ -136,4 +136,9 @@ Wire Wire Line
 	2550 1900 2650 1900
 Text Notes 1950 1500 0    60   ~ 0
 Ran out of GPIO, so the following keyboard connections are NC
+Text GLabel 3300 2100 0    60   Input ~ 0
+pwrswitch
+Wire Wire Line
+	3300 2100 3400 2100
+NoConn ~ 3400 2100
 $EndSCHEMATC
