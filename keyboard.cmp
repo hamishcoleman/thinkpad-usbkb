@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Sun 22 Mar 2015 01:07:02 GMT
+Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = Sun 22 Mar 2015 01:17:52 GMT
 
 BeginCmp
 TimeStamp = /550CC5F8/550CC8F0;
@@ -172,21 +172,21 @@ BeginCmp
 TimeStamp = /550CAAF7/550CC234;
 Reference = Q1;
 ValeurCmp = BSS138;
-IdModule  = SOT-23;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /550CAAF7/550CC193;
 Reference = Q2;
 ValeurCmp = BSS138;
-IdModule  = SOT-23;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /550CAAF7/550CC032;
 Reference = Q3;
 ValeurCmp = BSS138;
-IdModule  = SOT-23;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
@@ -470,6 +470,20 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /550E0B7A/550E2166;
+Reference = R41;
+ValeurCmp = DNP;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550E0B7A/550E2173;
+Reference = R42;
+ValeurCmp = DNP;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /550E0B7A/550E0862;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
@@ -487,7 +501,7 @@ BeginCmp
 TimeStamp = /550CC5F8/550CC8A8;
 Reference = U2;
 ValeurCmp = MCP1700-2202E/TT;
-IdModule  = SOT-23;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
