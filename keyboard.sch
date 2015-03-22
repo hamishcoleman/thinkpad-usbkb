@@ -40,7 +40,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title ""
-Date "21 mar 2015"
+Date "22 mar 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -93,5 +93,35 @@ S 5650 4050 1950 1350
 U 550E0B7A
 F0 "keyboard-efm32" 50
 F1 "keyboard-efm32.sch" 50
+F2 "USB_DM" I L 5650 4400 60 
+F3 "USB_DP" I L 5650 4300 60 
+F4 "USB_SENSE" I L 5650 4200 60 
+F5 "ps2_clk" I R 7600 4300 60 
+F6 "ps2_data" I R 7600 4400 60 
+F7 "ps2_reset" I R 7600 4500 60 
 $EndSheet
+Wire Wire Line
+	7600 4300 9000 4300
+Wire Wire Line
+	7600 4400 9000 4400
+Wire Wire Line
+	7600 4500 9000 4500
+Wire Wire Line
+	5650 4400 3200 4400
+Wire Wire Line
+	3200 4400 3200 5700
+Wire Wire Line
+	3200 5700 3400 5700
+Wire Wire Line
+	5650 4300 3100 4300
+Wire Wire Line
+	3100 4300 3100 5800
+Wire Wire Line
+	3100 5800 3400 5800
+Wire Wire Line
+	5650 4200 3000 4200
+Wire Wire Line
+	3000 4200 3000 5900
+Wire Wire Line
+	3000 5900 3400 5900
 $EndSCHEMATC
