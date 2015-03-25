@@ -34,7 +34,7 @@ LIBS:conn-palm-fold-kb
 LIBS:ldo-mcp1700
 LIBS:energymicro-efm32
 LIBS:keyboard-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -151,17 +151,6 @@ F 1 "+3.3V" H 4600 3810 30  0000 C CNN
 F 2 "" H 4600 3700 60  0000 C CNN
 F 3 "" H 4600 3700 60  0000 C CNN
 	1    4600 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR028
-U 1 1 550CC8D5
-P 4650 2550
-F 0 "#PWR028" H 4650 2640 20  0001 C CNN
-F 1 "+5V" H 4650 2640 30  0000 C CNN
-F 2 "" H 4650 2550 60  0000 C CNN
-F 3 "" H 4650 2550 60  0000 C CNN
-	1    4650 2550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -337,4 +326,15 @@ Text HLabel 6950 3850 0    60   Input ~ 0
 VBUS
 Text HLabel 3500 3800 0    60   Input ~ 0
 VBUS
+$Comp
+L +3.3V #PWR?
+U 1 1 5512FA81
+P 4650 2550
+F 0 "#PWR?" H 4650 2510 30  0001 C CNN
+F 1 "+3.3V" H 4650 2660 30  0000 C CNN
+F 2 "" H 4650 2550 60  0000 C CNN
+F 3 "" H 4650 2550 60  0000 C CNN
+	1    4650 2550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
