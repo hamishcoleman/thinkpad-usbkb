@@ -34,7 +34,7 @@ LIBS:conn-palm-fold-kb
 LIBS:ldo-mcp1700
 LIBS:energymicro-efm32
 LIBS:keyboard-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -49,45 +49,45 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN-PALM-FOLD-KB J1
+L conn-palm-fold-kb J1
 U 1 1 550C0652
 P 6450 1250
 F 0 "J1" H 6050 750 50  0000 C CNN
 F 1 "CONN-PALM-FOLD-KB" H 6450 1750 50  0000 C CNN
-F 2 "MODULE" H 6450 1250 50  0001 C CNN
+F 2 "conn-palm-fold-kb:conn-palm-fold-kb" H 6450 1250 50  0001 C CNN
 F 3 "DOCUMENTATION" H 6450 1250 50  0001 C CNN
 	1    6450 1250
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN-PALM-FOLD-KB J1
+L conn-palm-fold-kb J1
 U 2 1 550C0661
 P 6450 2600
 F 0 "J1" H 6050 1900 50  0000 C CNN
 F 1 "CONN-PALM-FOLD-KB" H 6450 3300 50  0000 C CNN
-F 2 "MODULE" H 6450 2600 50  0001 C CNN
+F 2 "conn-palm-fold-kb:conn-palm-fold-kb" H 6450 2600 50  0001 C CNN
 F 3 "DOCUMENTATION" H 6450 2600 50  0001 C CNN
 	2    6450 2600
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN-PALM-FOLD-KB J1
+L conn-palm-fold-kb J1
 U 3 1 550C0670
 P 6450 4250
 F 0 "J1" H 6050 3450 50  0000 C CNN
 F 1 "CONN-PALM-FOLD-KB" H 6450 5050 50  0000 C CNN
-F 2 "MODULE" H 6450 4250 50  0001 C CNN
+F 2 "conn-palm-fold-kb:conn-palm-fold-kb" H 6450 4250 50  0001 C CNN
 F 3 "DOCUMENTATION" H 6450 4250 50  0001 C CNN
 	3    6450 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN-PALM-FOLD-KB J1
+L conn-palm-fold-kb J1
 U 4 1 550C067F
 P 6450 5900
 F 0 "J1" H 6050 5200 50  0000 C CNN
 F 1 "CONN-PALM-FOLD-KB" H 6450 6600 50  0000 C CNN
-F 2 "MODULE" H 6450 5900 50  0001 C CNN
+F 2 "conn-palm-fold-kb:conn-palm-fold-kb" H 6450 5900 50  0001 C CNN
 F 3 "DOCUMENTATION" H 6450 5900 50  0001 C CNN
 	4    6450 5900
 	1    0    0    -1  
@@ -118,7 +118,7 @@ U 1 1 550C07ED
 P 5250 1250
 F 0 "P4" V 5200 1250 60  0000 C CNN
 F 1 "Palm Serial" V 5300 1250 60  0000 C CNN
-F 2 "" H 5250 1250 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 5250 1250 60  0001 C CNN
 F 3 "" H 5250 1250 60  0000 C CNN
 	1    5250 1250
 	-1   0    0    -1  
