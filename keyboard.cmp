@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201503240816+5533~22~ubuntu15.04.1-product   date = Fri 27 Mar 2015 11:15:57 GMT
+Cmp-Mod V01 Created by Cvpcb 0.201503240816+5533~22~ubuntu15.04.1-product   date = Mon 30 Mar 2015 12:36:03 BST
 
 BeginCmp
 TimeStamp = /550CC5F8/550CC8F0;
@@ -95,7 +95,7 @@ BeginCmp
 TimeStamp = /550DEB95/550DEBC7;
 Reference = CON1;
 ValeurCmp = USB-MICRO-B;
-IdModule  = USB_MINI_B;
+IdModule  = Connect:USB_Micro-B;
 EndCmp
 
 BeginCmp
