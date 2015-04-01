@@ -12,3 +12,14 @@ keyboard.net
 # backup of the pcb
 keyboard.000
 *.kicad_pcb-bak
+
+# gerbers
+keyboard-B_Cu.gbl
+keyboard-B_Mask.gbs
+keyboard-B_SilkS.gbo
+keyboard-F_Cu.gtl
+keyboard-F_Mask.gts
+keyboard-F_SilkS.gto
+keyboard-Edge_Cuts.gbr
+keyboard.drl
+
