@@ -20,6 +20,17 @@ keyboard-B_SilkS.gbo
 keyboard-F_Cu.gtl
 keyboard-F_Mask.gts
 keyboard-F_SilkS.gto
+keyboard-F_Paste.gtp
 keyboard-Edge_Cuts.gbr
 keyboard.drl
+
+keyboard-B_Cu.gbl.svg
+keyboard-B_Mask.gbs.svg
+keyboard-B_SilkS.gbo.svg
+keyboard-F_Cu.gtl.svg
+keyboard-F_Mask.gts.svg
+keyboard-F_SilkS.gto.svg
+keyboard-F_Paste.gtp.svg
+keyboard-Edge_Cuts.gbr.svg
+keyboard.drl.svg
 
