@@ -21,6 +21,11 @@ version:=$(shell git describe --dirty)
 zip: $(project)-$(version).zip
 
 $(project)-$(version).zip: $(gerbers)
+	git archive --format=zip -o $@ --prefix=$(project)-$(version)/ HEAD
+
+zip.gerbers: $(project)-$(version).gerbers.zip
+
+$(project)-$(version).gerbers.zip: $(gerbers)
 	zip $@ $^
 
 pdf: $(project)-$(version).pcb.pdf
