@@ -1,6 +1,6 @@
-update=Sun 22 Mar 2015 02:13:05 GMT
+update=Tue 12 May 2015 17:54:35 BST
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -86,3 +86,16 @@ LibName31=conn-x220-kb
 LibName32=conn-palm-fold-kb
 LibName33=ldo-mcp1700
 LibName34=energymicro-efm32
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
