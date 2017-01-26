@@ -1,0 +1,34 @@
+
+Some notes about the signals on the keyboard connector
+
+      5   13  9   7   11  3   15  17
+
+22    `   1   Q   TAB A   Esc Z   ??
+18    F1  2   W   CLk S   (|) X
+14    F2  3   E   F3  D   F4  C
+10    5   4   R   T   F   G   V   B
+02    6   7   U   Y   J   H   M   N
+04    =   8   I   ]   K   F6  ,   (/)
+08    F8  9   O   F7  L   ??  .   ??
+12    -   0   P   [   ;   '   (#) ?
+06    F9  F10 ??  BS  \   F5  Ent Spc
+20    Ins F12     w-l             Rgt
+16    Del F11 vl+ vl- mut acc mic Dn
+24    Pup Pdn         W-R     PgL PgR
+28    Hom End             Up  Pau Lef
+32        PSc SLk         A-L     A-R
+26                S-l        S-r    
+30    C-l                    C-r
+
+ 1 and 34 == Fn
+19 and 34 == Power (note, seems to have a capacitor attached here)
+
+33+ and 36- == led mic
+23+ and 36- == led mic
+
+38+ and 31- == 1.2ohm
+38- and 31+ == brief short, then .4ohm
+
+35+ and 36- == led mic
+35+ and 21- == led capslock
+
