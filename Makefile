@@ -2,7 +2,7 @@
 all: DUMMY
 
 
-project:=keyboard
+project:=thinkpad-usbkb
 
 gerbers:= \
     $(project)-Edge_Cuts.gbr \
